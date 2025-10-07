@@ -7,7 +7,7 @@ You can shorten long URLs, track click analytics, and view all links in a dashbo
 
 ## Features
 
-- Shorten long URLs  
+- Shorten long URL 
 - Redirect short links (via unique `shortId`)  
 - Track click count, IP, and user-agent  
 - View all shortened URLs with analytics in a simple dashboard
