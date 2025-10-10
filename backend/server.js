@@ -3,11 +3,13 @@ import dotenv from 'dotenv';
 import connectDB from './src/configs/db.js';
 import cors from 'cors';
 import urlRoutes from './src/routes/Url.route.js'
+import {connectRedis} from './src/configs/redis.js';
 
 const app=express();
 
 dotenv.config();
 connectDB();
+connectRedis();
 app.use(express.json());
 app.use(cors({
     origin:'*',
